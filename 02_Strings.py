@@ -1,3 +1,3 @@
 phrase = 'String in a variable'
 print(phrase)
-print('\n' )
+print('\n' + phrase + 'and concatenated string')
