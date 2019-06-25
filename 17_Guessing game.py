@@ -13,8 +13,8 @@ while guess != secret_word and not (out_of_guesses):
     else:
         out_of_guesses = True
 
-        if out_of_guesses:
-            print('Out of guesses, You Lose!')
-        else:
-            print('You win!')
+if out_of_guesses:
+     print('Out of guesses, You Lose!')
+else:
+     print('You win!')
 
