@@ -1,4 +1,7 @@
 def max_num(num1, num2, num3):
+    if num1 == num2 or num1 == num3:
+        if num1 == num2:
+            return num1
     if num1 >=num2 and num1 >= num3:
         return num1
     elif num2 >=num1 and num2 >= num3:
@@ -6,4 +9,4 @@ def max_num(num1, num2, num3):
     else:
         return num3
 
-print(max_num(2,4,7))
+print(max_num(2,2,7))
