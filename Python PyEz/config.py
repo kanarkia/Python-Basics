@@ -1,4 +1,4 @@
-from jnpr.junos import Device
+from jnpr.junos.device import Device
 from jnpr.junos.utils.config import Config
 from pprint import pprint
 junos_hosts = ['172.25.11.1']
