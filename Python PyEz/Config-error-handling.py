@@ -1,6 +1,8 @@
 from jnpr.junos.device import Device
 from jnpr.junos.utils.config import Config
 from pprint import pprint
+from jnpr.junos.exception import *
+
 junos_hosts = ['172.25.11.1','1.1.1.1']
 Device.auto_probe = 10
 
